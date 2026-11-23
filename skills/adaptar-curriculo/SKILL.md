@@ -35,7 +35,9 @@ O currículo sai **no idioma da vaga**:
 - vaga em português de Portugal → **PT-PT** ("licenciatura", "candidatura", "equipa", "utilizador",
   "telemóvel"); use o telefone no formato internacional (+55 ...) e informe a situação de visto ou
   cidadania se o perfil tiver essa informação;
-- vaga em inglês → inglês (títulos de seção em inglês via `titulos_secoes`).
+- vaga em inglês → inglês (títulos de seção em inglês via `titulos_secoes`). Se existir
+  `~/vagas/curriculo-mestre-en.json`, parta dele, porque é a tradução já revisada do mestre. Se o
+  mestre em português mudar, atualize também a versão em inglês.
 
 Ao traduzir, é só tradução: nenhum fato novo e nenhum nível de idioma aumentado.
 

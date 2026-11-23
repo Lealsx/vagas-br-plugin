@@ -19,7 +19,9 @@ except ImportError:
 
 # frases cortadas no meio costumam terminar numa dessas palavras
 SOLTAS = r"\b(de|da|do|das|dos|em|com|para|por|e|a|o|ao|na|no)\s*$"
-SECOES = ["RESUMO", "EXPERIENCIA", "FORMACAO", "HABILIDADES|COMPETENCIAS"]
+# português | inglês (CV gerado no idioma da vaga)
+SECOES = ["RESUMO|SUMMARY|PROFILE", "EXPERIENCIA|EXPERIENCE", "FORMACAO|EDUCATION",
+          "HABILIDADES|COMPETENCIAS|SKILLS"]
 
 
 def sem_acento(s):
