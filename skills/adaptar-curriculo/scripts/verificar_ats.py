@@ -50,6 +50,10 @@ def verificar(caminho, palavras, max_paginas):
         lixo = sum(1 for c in t if 0xE000 <= ord(c) <= 0xF8FF)
         reg(lixo == 0, f"[{ferramenta}] sem caracteres inválidos", f"{lixo} encontrados")
 
+        hifens = sum(t.count(c) for c in "‐‑­")
+        reg(hifens == 0, f"[{ferramenta}] hífens normais (sem hífen especial/inquebrável)",
+            f"{hifens} encontrados; o ATS não acha 'back-end' escrito com eles")
+
         quebradas = re.findall(r"\b\w+- \w+", plano)
         reg(not quebradas, f"[{ferramenta}] nenhuma palavra quebrada no fim da linha",
             ", ".join(quebradas[:5]))

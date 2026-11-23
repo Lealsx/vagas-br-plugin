@@ -86,16 +86,12 @@ def fonte(run, tamanho=None, negrito=False, italico=False):
 
 
 def texto(p, conteudo, **fmt):
-    """Escreve o texto sem deixar palavras com hífen (front-end, e-commerce) quebrarem no fim da
-    linha, porque isso vira 'frontend' ou 'front- end' quando o ATS extrai o texto."""
-    partes = re.split(r"(?<=\w)-(?=\w)", conteudo)
-    for i, parte in enumerate(partes):
-        if i:
-            r = p.add_run()
-            r._r.append(OxmlElement("w:noBreakHyphen"))
-            fonte(r, **fmt)
-        if parte:
-            fonte(p.add_run(parte), **fmt)
+    """Escreve o texto com o hífen comum (U+002D).
+
+    Não use o "hífen inquebrável" do Word (w:noBreakHyphen): no PDF ele vira U+2011, e o ATS
+    deixa de achar palavras como "back-end" ou "e-commerce". Se uma palavra com hífen quebrar no
+    fim da linha, o verificar_ats.py acusa, e aí é só reescrever a frase."""
+    fonte(p.add_run(conteudo), **fmt)
 
 
 def espaco(p, antes=0, depois=2):
