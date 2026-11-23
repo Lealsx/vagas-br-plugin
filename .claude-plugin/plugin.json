@@ -1,0 +1,10 @@
+{
+  "name": "vagas-br",
+  "version": "0.1.0",
+  "description": "Busca vagas recentes no Brasil (LinkedIn, Gupy, Indeed, Catho, InfoJobs, Vagas.com), adapta o currículo para cada vaga sem inventar nada (DOCX + PDF amigável a ATS), escreve carta e mensagem para recrutador e controla suas candidaturas. Em pt-BR, para qualquer área.",
+  "author": { "name": "Lealsx" },
+  "keywords": ["vagas", "curriculo", "emprego", "ats", "gupy", "linkedin", "brasil"],
+  "license": "MIT",
+  "repository": "https://github.com/Lealsx/vagas-br-plugin",
+  "homepage": "https://github.com/Lealsx/vagas-br-plugin"
+}

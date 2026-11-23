@@ -1,0 +1,6 @@
+{
+  "name": "vagas-br-plugin",
+  "description": "Plugin de busca de vagas e currículo para o mercado brasileiro.",
+  "owner": { "name": "Lealsx" },
+  "plugins": [ { "name": "vagas-br", "source": "./" } ]
+}

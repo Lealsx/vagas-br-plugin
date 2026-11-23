@@ -1,0 +1,10 @@
+# Nunca versionar dados pessoais
+*.pdf
+*.docx
+*.doc
+perfil.md
+candidaturas.md
+saida/
+vagas/
+__pycache__/
+.venv/
