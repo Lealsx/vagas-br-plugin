@@ -33,7 +33,7 @@ Responda em português do Brasil. O **texto gerado** sai no idioma da vaga: PT-B
 4. **Fechamento**: disponibilidade para conversar (e para início ou mudança, se for Portugal) e despedida.
 
 ### 2. Mensagens curtas
-- **Pedido de conexão no LinkedIn (até 300 caracteres)**: quem é, a vaga e um gancho.
+- **Pedido de conexão no LinkedIn (até 200 caracteres**, que é o limite da nota de convite para contas gratuitas): quem é, a vaga e um gancho.
 - **InMail / e-mail para o recrutador (até 600 caracteres)**.
 - **Pedido de indicação** para alguém da empresa (até 500 caracteres): fácil de dizer "sim", com o
   link da vaga.
