@@ -22,7 +22,7 @@ Responda sempre em português do Brasil. Arquivo: `~/vagas/candidaturas.md`. Cri
 
 **Etapas** (use sempre estes nomes): `Para enviar` → `Enviada` → `Triagem/teste` → `Entrevista RH`
 → `Entrevista técnica` → `Entrevista final` → `Proposta` → `Aceita` | `Recusada por mim` |
-`Reprovado` | `Sem resposta`.
+`Reprovado` | `Sem resposta` | `Vaga encerrada` (a vaga sumiu ou não aceitava candidatura).
 
 ## Ações
 
